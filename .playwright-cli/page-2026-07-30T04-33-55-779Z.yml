@@ -1,0 +1,979 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - strong [ref=e5]: Native PPTX Review
+        - generic [ref=e6]: current_manual_34_slide_en.pptx 的副本修改方案
+      - generic [ref=e7]:
+        - button "复制修改意见" [ref=e8] [cursor=pointer]
+        - button "全部同意并复制确认消息" [ref=e9] [cursor=pointer]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: 确认页 · 不会修改 PPTX
+        - heading "先确认讲稿逻辑与逐页替换范围，再修改原稿副本" [level=1] [ref=e14]
+        - paragraph [ref=e15]: 左侧是当前英文 PPT 的原页渲染，右侧是拟采用的新标题、本页结论、下一步逻辑、讲稿和准确文本替换。 这里审的是“怎么改”，不是一份从零制作的新 PPT。
+      - complementary [ref=e16]:
+        - heading "本轮不可变约束" [level=2] [ref=e17]
+        - list [ref=e18]:
+          - listitem [ref=e19]: ✓ 原 PPTX 与现有 PDF 基准保持不动。
+          - listitem [ref=e20]: ✓ 在原 PPTX 的精确副本上原生替换文字与讲者备注。
+          - listitem [ref=e21]: ✓ 保留 34 页、16:9、原页顺序与原页版式；不删页、不重排、不复用其他页。
+          - listitem [ref=e22]: ✓ 删除制作脚手架、防御性句式和观众无法理解的备注性文字。
+          - listitem [ref=e23]: ✓ 你明确确认之前，不执行 PPTX 修改。
+    - region "方案摘要" [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: "34"
+        - generic [ref=e27]: 输出页数
+      - generic [ref=e28]:
+        - generic [ref=e29]: 1:1
+        - generic [ref=e30]: 原页到副本页映射
+      - generic [ref=e31]:
+        - generic [ref=e32]: "0"
+        - generic [ref=e33]: 删页 / 重排 / 复用
+      - generic [ref=e34]:
+        - generic [ref=e35]: 28:45
+        - generic [ref=e36]: 目标讲述时间
+      - generic [ref=e37]:
+        - generic [ref=e38]: DRAFT
+        - generic [ref=e39]: 当前方案状态
+    - generic [ref=e40]:
+      - generic [ref=e41]: Central question
+      - paragraph [ref=e42]: How can we describe what a technology retains, changes, and recombines from one generation to the next, so that one study can become the starting point for the next?
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - button "全部 34 页" [ref=e45] [cursor=pointer]
+        - button "Opening" [ref=e46] [cursor=pointer]
+        - button "01 Change" [ref=e47] [cursor=pointer]
+        - button "02 Structure" [ref=e48] [cursor=pointer]
+        - button "03 Invention" [ref=e49] [cursor=pointer]
+        - button "04 Route" [ref=e50] [cursor=pointer]
+        - button "Synthesis" [ref=e51] [cursor=pointer]
+      - searchbox "搜索页码、标题、结论或讲稿" [ref=e52]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]: •
+          - generic [ref=e57]:
+            - heading "开场：把问题说清楚" [level=2] [ref=e58]
+            - paragraph [ref=e59]: 原页保持同序；逐页只改副本中的继承文本槽与讲者备注。
+        - generic [ref=e60]:
+          - article [ref=e61]:
+            - generic [ref=e62]:
+              - img "当前第 1 页" [ref=e63]
+              - generic [ref=e64]:
+                - generic [ref=e65]: 当前原页 · Source slide 1
+                - generic [ref=e66]: 拟替换 0 个文本槽
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e69]: "01"
+                - heading "How Can Innovation Become Cumulative Science?" [level=3] [ref=e70]
+                - generic [ref=e71]: Opening
+              - paragraph [ref=e72]: Technical knowledge becomes cumulative when each generation records what it retained, changed, and recombined.
+              - generic [ref=e73]:
+                - generic [ref=e74]: 下一步
+                - generic [ref=e75]: "So we begin with the practical task: comparing one generation with the next."
+              - group [ref=e76]:
+                - generic "查看原页版式适配理由" [ref=e77] [cursor=pointer]
+              - group [ref=e78]:
+                - generic "查看准确文本替换（0 处）" [ref=e79] [cursor=pointer]
+              - group [ref=e80]:
+                - generic "查看本页英文讲稿" [ref=e81] [cursor=pointer]
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - button "同意" [ref=e84] [cursor=pointer]
+                  - button "需修改" [ref=e85] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e86]
+          - article [ref=e87]:
+            - generic [ref=e88]:
+              - img "当前第 2 页" [ref=e89]
+              - generic [ref=e90]:
+                - generic [ref=e91]: 当前原页 · Source slide 2
+                - generic [ref=e92]: 拟替换 0 个文本槽
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: "02"
+                - heading "Compare Generations by Tracking What Changed" [level=3] [ref=e96]
+                - generic [ref=e97]: Opening
+              - paragraph [ref=e98]: Record what stayed, what changed, and what was recombined.
+              - generic [ref=e99]:
+                - generic [ref=e100]: 下一步
+                - generic [ref=e101]: Answering that practical problem requires four connected questions.
+              - group [ref=e102]:
+                - generic "查看原页版式适配理由" [ref=e103] [cursor=pointer]
+              - group [ref=e104]:
+                - generic "查看准确文本替换（0 处）" [ref=e105] [cursor=pointer]
+              - group [ref=e106]:
+                - generic "查看本页英文讲稿" [ref=e107] [cursor=pointer]
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - button "同意" [ref=e110] [cursor=pointer]
+                  - button "需修改" [ref=e111] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e112]
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: "01"
+          - generic [ref=e116]:
+            - heading "变化：方向如何形成并持续" [level=2] [ref=e117]
+            - paragraph [ref=e118]: 原页保持同序；逐页只改副本中的继承文本槽与讲者备注。
+        - generic [ref=e119]:
+          - article [ref=e120]:
+            - generic [ref=e121]:
+              - img "当前第 3 页" [ref=e122]
+              - generic [ref=e123]:
+                - generic [ref=e124]: 当前原页 · Source slide 3
+                - generic [ref=e125]: 拟替换 0 个文本槽
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e128]: "03"
+                - heading "01 CHANGE — Why Do Some Technical Paths Persist?" [level=3] [ref=e129]
+                - generic [ref=e130]: 01 Change
+              - paragraph [ref=e131]: Technical change gains direction through implementation, learning, temporary convergence, and selection.
+              - generic [ref=e132]:
+                - generic [ref=e133]: 下一步
+                - generic [ref=e134]: We start by separating an invention from an innovation and from its later consequences.
+              - group [ref=e135]:
+                - generic "查看原页版式适配理由" [ref=e136] [cursor=pointer]
+              - group [ref=e137]:
+                - generic "查看准确文本替换（0 处）" [ref=e138] [cursor=pointer]
+              - group [ref=e139]:
+                - generic "查看本页英文讲稿" [ref=e140] [cursor=pointer]
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - button "同意" [ref=e143] [cursor=pointer]
+                  - button "需修改" [ref=e144] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e145]
+          - article [ref=e146]:
+            - generic [ref=e147]:
+              - img "当前第 4 页" [ref=e148]
+              - generic [ref=e149]:
+                - generic [ref=e150]: 当前原页 · Source slide 4
+                - generic [ref=e151]: 拟替换 0 个文本槽
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - generic [ref=e154]: "04"
+                - heading "An Idea Becomes an Innovation When It Is Put into Use" [level=3] [ref=e155]
+                - generic [ref=e156]: 01 Change
+              - paragraph [ref=e157]: An invention becomes an innovation through implementation; wider economic effects develop afterward.
+              - generic [ref=e158]:
+                - generic [ref=e159]: 下一步
+                - generic [ref=e160]: How do firms choose where to search when they cannot see every option?
+              - group [ref=e161]:
+                - generic "查看原页版式适配理由" [ref=e162] [cursor=pointer]
+              - group [ref=e163]:
+                - generic "查看准确文本替换（0 处）" [ref=e164] [cursor=pointer]
+              - group [ref=e165]:
+                - generic "查看本页英文讲稿" [ref=e166] [cursor=pointer]
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - button "同意" [ref=e169] [cursor=pointer]
+                  - button "需修改" [ref=e170] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e171]
+          - article [ref=e172]:
+            - generic [ref=e173]:
+              - img "当前第 5 页" [ref=e174]
+              - generic [ref=e175]:
+                - generic [ref=e176]: 当前原页 · Source slide 5
+                - generic [ref=e177]: 拟替换 0 个文本槽
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - generic [ref=e180]: "05"
+                - heading "Experience Accumulates; Shared Measures Give Search Direction" [level=3] [ref=e181]
+                - generic [ref=e182]: 01 Change
+              - paragraph [ref=e183]: Firms search near what they know, while shared problems and measures focus improvement in a direction.
+              - generic [ref=e184]:
+                - generic [ref=e185]: 下一步
+                - generic [ref=e186]: When many firms search this way, how does an industry move from variety to stability?
+              - group [ref=e187]:
+                - generic "查看原页版式适配理由" [ref=e188] [cursor=pointer]
+              - group [ref=e189]:
+                - generic "查看准确文本替换（0 处）" [ref=e190] [cursor=pointer]
+              - group [ref=e191]:
+                - generic "查看本页英文讲稿" [ref=e192] [cursor=pointer]
+              - generic [ref=e193]:
+                - generic [ref=e194]:
+                  - button "同意" [ref=e195] [cursor=pointer]
+                  - button "需修改" [ref=e196] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e197]
+          - article [ref=e198]:
+            - generic [ref=e199]:
+              - img "当前第 6 页" [ref=e200]
+              - generic [ref=e201]:
+                - generic [ref=e202]: 当前原页 · Source slide 6
+                - generic [ref=e203]: 拟替换 0 个文本槽
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e206]: "06"
+                - heading "Industries Often Narrow Around a Shared Design" [level=3] [ref=e207]
+                - generic [ref=e208]: 01 Change
+              - paragraph [ref=e209]: Industries often move from varied product experiments to a temporary reference design and greater process improvement.
+              - generic [ref=e210]:
+                - generic [ref=e211]: 下一步
+                - generic [ref=e212]: What if the parts remain familiar while their connections change?
+              - group [ref=e213]:
+                - generic "查看原页版式适配理由" [ref=e214] [cursor=pointer]
+              - group [ref=e215]:
+                - generic "查看准确文本替换（0 处）" [ref=e216] [cursor=pointer]
+              - group [ref=e217]:
+                - generic "查看本页英文讲稿" [ref=e218] [cursor=pointer]
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - button "同意" [ref=e221] [cursor=pointer]
+                  - button "需修改" [ref=e222] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e223]
+          - article [ref=e224]:
+            - generic [ref=e225]:
+              - img "当前第 7 页" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: 当前原页 · Source slide 7
+                - generic [ref=e229]: 拟替换 0 个文本槽
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - generic [ref=e232]: "07"
+                - heading "New Connections Can Transform Familiar Components" [level=3] [ref=e233]
+                - generic [ref=e234]: 01 Change
+              - paragraph [ref=e235]: Changing component connections can transform a system and unsettle established firms.
+              - generic [ref=e236]:
+                - generic [ref=e237]: 下一步
+                - generic [ref=e238]: Architecture tells us what changed; history helps explain why one design persists.
+              - group [ref=e239]:
+                - generic "查看原页版式适配理由" [ref=e240] [cursor=pointer]
+              - group [ref=e241]:
+                - generic "查看准确文本替换（0 处）" [ref=e242] [cursor=pointer]
+              - group [ref=e243]:
+                - generic "查看本页英文讲稿" [ref=e244] [cursor=pointer]
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - button "同意" [ref=e247] [cursor=pointer]
+                  - button "需修改" [ref=e248] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e249]
+          - article [ref=e250]:
+            - generic [ref=e251]:
+              - img "当前第 8 页" [ref=e252]
+              - generic [ref=e253]:
+                - generic [ref=e254]: 当前原页 · Source slide 8
+                - generic [ref=e255]: 拟替换 0 个文本槽
+            - generic [ref=e256]:
+              - generic [ref=e257]:
+                - generic [ref=e258]: "08"
+                - heading "Feedback Turns Early Choices into Lasting Paths" [level=3] [ref=e259]
+                - generic [ref=e260]: 01 Change
+              - paragraph [ref=e261]: Early choices persist when learning, network, or coordination feedback narrows later options.
+              - generic [ref=e262]:
+                - generic [ref=e263]: 下一步
+                - generic [ref=e264]: History shapes the available options; people also shape what counts as success.
+              - group [ref=e265]:
+                - generic "查看原页版式适配理由" [ref=e266] [cursor=pointer]
+              - group [ref=e267]:
+                - generic "查看准确文本替换（0 处）" [ref=e268] [cursor=pointer]
+              - group [ref=e269]:
+                - generic "查看本页英文讲稿" [ref=e270] [cursor=pointer]
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - button "同意" [ref=e273] [cursor=pointer]
+                  - button "需修改" [ref=e274] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e275]
+          - article [ref=e276]:
+            - generic [ref=e277]:
+              - img "当前第 9 页" [ref=e278]
+              - generic [ref=e279]:
+                - generic [ref=e280]: 当前原页 · Source slide 9
+                - generic [ref=e281]: 拟替换 0 个文本槽
+            - generic [ref=e282]:
+              - generic [ref=e283]:
+                - generic [ref=e284]: "09"
+                - heading "Different Groups Define Different Measures of Success" [level=3] [ref=e285]
+                - generic [ref=e286]: 01 Change
+              - paragraph [ref=e287]: Groups assign different meanings and priorities to a technology, while resources and power shape whose view influences the design.
+              - generic [ref=e288]:
+                - generic [ref=e289]: 下一步
+                - generic [ref=e290]: Inside firms, those priorities become investment decisions.
+              - group [ref=e291]:
+                - generic "查看原页版式适配理由" [ref=e292] [cursor=pointer]
+              - group [ref=e293]:
+                - generic "查看准确文本替换（0 处）" [ref=e294] [cursor=pointer]
+              - group [ref=e295]:
+                - generic "查看本页英文讲稿" [ref=e296] [cursor=pointer]
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - button "同意" [ref=e299] [cursor=pointer]
+                  - button "需修改" [ref=e300] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e301]
+          - article [ref=e302]:
+            - generic [ref=e303]:
+              - img "当前第 10 页" [ref=e304]
+              - generic [ref=e305]:
+                - generic [ref=e306]: 当前原页 · Source slide 10
+                - generic [ref=e307]: 拟替换 0 个文本槽
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - generic [ref=e310]: "10"
+                - heading "Current Customers Shape Which Routes Firms Pursue" [level=3] [ref=e311]
+                - generic [ref=e312]: 01 Change
+              - paragraph [ref=e313]: Current customers and resource allocation can steer incumbents away from routes that begin in small or new markets.
+              - generic [ref=e314]:
+                - generic [ref=e315]: 下一步
+                - generic [ref=e316]: We can now see how directions are selected; next we move inside the technology itself.
+              - group [ref=e317]:
+                - generic "查看原页版式适配理由" [ref=e318] [cursor=pointer]
+              - group [ref=e319]:
+                - generic "查看准确文本替换（0 处）" [ref=e320] [cursor=pointer]
+              - group [ref=e321]:
+                - generic "查看本页英文讲稿" [ref=e322] [cursor=pointer]
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - button "同意" [ref=e325] [cursor=pointer]
+                  - button "需修改" [ref=e326] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e327]
+          - article [ref=e328]:
+            - generic [ref=e329]:
+              - img "当前第 11 页" [ref=e330]
+              - generic [ref=e331]:
+                - generic [ref=e332]: 当前原页 · Source slide 11
+                - generic [ref=e333]: 拟替换 0 个文本槽
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - generic [ref=e336]: "11"
+                - heading "Technology Evolves Through Reuse, Recombination, and Dependency" [level=3] [ref=e337]
+                - generic [ref=e338]: 01 Change
+              - paragraph [ref=e339]: Technologies grow by reusing existing technologies, recombining elements, and coordinating dependencies.
+              - generic [ref=e340]:
+                - generic [ref=e341]: 下一步
+                - generic [ref=e342]: To compare these changes, we need a clear language for purpose, parts, connections, and performance.
+              - group [ref=e343]:
+                - generic "查看原页版式适配理由" [ref=e344] [cursor=pointer]
+              - group [ref=e345]:
+                - generic "查看准确文本替换（0 处）" [ref=e346] [cursor=pointer]
+              - group [ref=e347]:
+                - generic "查看本页英文讲稿" [ref=e348] [cursor=pointer]
+              - generic [ref=e349]:
+                - generic [ref=e350]:
+                  - button "同意" [ref=e351] [cursor=pointer]
+                  - button "需修改" [ref=e352] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e353]
+      - generic [ref=e354]:
+        - generic [ref=e355]:
+          - generic [ref=e356]: "02"
+          - generic [ref=e357]:
+            - heading "结构：技术内部到底改变了什么" [level=2] [ref=e358]
+            - paragraph [ref=e359]: 原页保持同序；逐页只改副本中的继承文本槽与讲者备注。
+        - generic [ref=e360]:
+          - article [ref=e361]:
+            - generic [ref=e362]:
+              - img "当前第 12 页" [ref=e363]
+              - generic [ref=e364]:
+                - generic [ref=e365]: 当前原页 · Source slide 12
+                - generic [ref=e366]: 拟替换 0 个文本槽
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e369]: "12"
+                - heading "02 STRUCTURE — What Exactly Changes Inside a Technology?" [level=3] [ref=e370]
+                - generic [ref=e371]: 02 Structure
+              - paragraph [ref=e372]: Comparing generations requires a clear account of purpose, components, connections, and performance.
+              - generic [ref=e373]:
+                - generic [ref=e374]: 下一步
+                - generic [ref=e375]: We begin by separating what a technology should do, how it is built, and what it actually does.
+              - group [ref=e376]:
+                - generic "查看原页版式适配理由" [ref=e377] [cursor=pointer]
+              - group [ref=e378]:
+                - generic "查看准确文本替换（0 处）" [ref=e379] [cursor=pointer]
+              - group [ref=e380]:
+                - generic "查看本页英文讲稿" [ref=e381] [cursor=pointer]
+              - generic [ref=e382]:
+                - generic [ref=e383]:
+                  - button "同意" [ref=e384] [cursor=pointer]
+                  - button "需修改" [ref=e385] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e386]
+          - article [ref=e387]:
+            - generic [ref=e388]:
+              - img "当前第 13 页" [ref=e389]
+              - generic [ref=e390]:
+                - generic [ref=e391]: 当前原页 · Source slide 13
+                - generic [ref=e392]: 拟替换 0 个文本槽
+            - generic [ref=e393]:
+              - generic [ref=e394]:
+                - generic [ref=e395]: "13"
+                - heading "Separate Purpose, Construction, and Performance" [level=3] [ref=e396]
+                - generic [ref=e397]: 02 Structure
+              - paragraph [ref=e398]: Compare technologies by separating function, expected effect, construction, and actual effect.
+              - generic [ref=e399]:
+                - generic [ref=e400]: 下一步
+                - generic [ref=e401]: Once these layers are clear, we need a shared language for comparing them across products.
+              - group [ref=e402]:
+                - generic "查看原页版式适配理由" [ref=e403] [cursor=pointer]
+              - group [ref=e404]:
+                - generic "查看准确文本替换（0 处）" [ref=e405] [cursor=pointer]
+              - group [ref=e406]:
+                - generic "查看本页英文讲稿" [ref=e407] [cursor=pointer]
+              - generic [ref=e408]:
+                - generic [ref=e409]:
+                  - button "同意" [ref=e410] [cursor=pointer]
+                  - button "需修改" [ref=e411] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e412]
+          - article [ref=e413]:
+            - generic [ref=e414]:
+              - img "当前第 14 页" [ref=e415]
+              - generic [ref=e416]:
+                - generic [ref=e417]: 当前原页 · Source slide 14
+                - generic [ref=e418]: 拟替换 0 个文本槽
+            - generic [ref=e419]:
+              - generic [ref=e420]:
+                - generic [ref=e421]: "14"
+                - heading "Shared Terms Make Functions Comparable" [level=3] [ref=e422]
+                - generic [ref=e423]: 02 Structure
+              - paragraph [ref=e424]: Standardize the names first; map the relationships separately.
+              - generic [ref=e425]:
+                - generic [ref=e426]: 下一步
+                - generic [ref=e427]: With a shared vocabulary, we can ask how functions are assigned to physical components.
+              - group [ref=e428]:
+                - generic "查看原页版式适配理由" [ref=e429] [cursor=pointer]
+              - group [ref=e430]:
+                - generic "查看准确文本替换（0 处）" [ref=e431] [cursor=pointer]
+              - group [ref=e432]:
+                - generic "查看本页英文讲稿" [ref=e433] [cursor=pointer]
+              - generic [ref=e434]:
+                - generic [ref=e435]:
+                  - button "同意" [ref=e436] [cursor=pointer]
+                  - button "需修改" [ref=e437] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e438]
+          - article [ref=e439]:
+            - generic [ref=e440]:
+              - img "当前第 15 页" [ref=e441]
+              - generic [ref=e442]:
+                - generic [ref=e443]: 当前原页 · Source slide 15
+                - generic [ref=e444]: 拟替换 0 个文本槽
+            - generic [ref=e445]:
+              - generic [ref=e446]:
+                - generic [ref=e447]: "15"
+                - heading "The Same Functions Can Produce Different Architectures" [level=3] [ref=e448]
+                - generic [ref=e449]: 02 Structure
+              - paragraph [ref=e450]: Product architecture maps functions to physical components and defines how those components connect.
+              - generic [ref=e451]:
+                - generic [ref=e452]: 下一步
+                - generic [ref=e453]: These interface choices also tell us where teams need to coordinate.
+              - group [ref=e454]:
+                - generic "查看原页版式适配理由" [ref=e455] [cursor=pointer]
+              - group [ref=e456]:
+                - generic "查看准确文本替换（0 处）" [ref=e457] [cursor=pointer]
+              - group [ref=e458]:
+                - generic "查看本页英文讲稿" [ref=e459] [cursor=pointer]
+              - generic [ref=e460]:
+                - generic [ref=e461]:
+                  - button "同意" [ref=e462] [cursor=pointer]
+                  - button "需修改" [ref=e463] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e464]
+          - article [ref=e465]:
+            - generic [ref=e466]:
+              - img "当前第 16 页" [ref=e467]
+              - generic [ref=e468]:
+                - generic [ref=e469]: 当前原页 · Source slide 16
+                - generic [ref=e470]: 拟替换 0 个文本槽
+            - generic [ref=e471]:
+              - generic [ref=e472]:
+                - generic [ref=e473]: "16"
+                - heading "Interfaces Show Where Teams Need to Coordinate" [level=3] [ref=e474]
+                - generic [ref=e475]: 02 Structure
+              - paragraph [ref=e476]: Comparing technical interfaces with team communication reveals coordination gaps.
+              - generic [ref=e477]:
+                - generic [ref=e478]: 下一步
+                - generic [ref=e479]: With hundreds of relationships, we need a general way to reveal loops, groups, and possible ripple effects.
+              - group [ref=e480]:
+                - generic "查看原页版式适配理由" [ref=e481] [cursor=pointer]
+              - group [ref=e482]:
+                - generic "查看准确文本替换（0 处）" [ref=e483] [cursor=pointer]
+              - group [ref=e484]:
+                - generic "查看本页英文讲稿" [ref=e485] [cursor=pointer]
+              - generic [ref=e486]:
+                - generic [ref=e487]:
+                  - button "同意" [ref=e488] [cursor=pointer]
+                  - button "需修改" [ref=e489] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e490]
+          - article [ref=e491]:
+            - generic [ref=e492]:
+              - img "当前第 17 页" [ref=e493]
+              - generic [ref=e494]:
+                - generic [ref=e495]: 当前原页 · Source slide 17
+                - generic [ref=e496]: 拟替换 0 个文本槽
+            - generic [ref=e497]:
+              - generic [ref=e498]:
+                - generic [ref=e499]: "17"
+                - heading "A DSM Makes Complex Dependencies Inspectable" [level=3] [ref=e500]
+                - generic [ref=e501]: 02 Structure
+              - paragraph [ref=e502]: Define one relationship clearly, then use the matrix to reveal loops, groups, and possible ripple effects.
+              - generic [ref=e503]:
+                - generic [ref=e504]: 下一步
+                - generic [ref=e505]: Once structure can be recorded, we can ask how stored knowledge helps create a new solution.
+              - group [ref=e506]:
+                - generic "查看原页版式适配理由" [ref=e507] [cursor=pointer]
+              - group [ref=e508]:
+                - generic "查看准确文本替换（0 处）" [ref=e509] [cursor=pointer]
+              - group [ref=e510]:
+                - generic "查看本页英文讲稿" [ref=e511] [cursor=pointer]
+              - generic [ref=e512]:
+                - generic [ref=e513]:
+                  - button "同意" [ref=e514] [cursor=pointer]
+                  - button "需修改" [ref=e515] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e516]
+      - generic [ref=e517]:
+        - generic [ref=e518]:
+          - generic [ref=e519]: "03"
+          - generic [ref=e520]:
+            - heading "发明：知识如何打开新方向" [level=2] [ref=e521]
+            - paragraph [ref=e522]: 原页保持同序；逐页只改副本中的继承文本槽与讲者备注。
+        - generic [ref=e523]:
+          - article [ref=e524]:
+            - generic [ref=e525]:
+              - img "当前第 18 页" [ref=e526]
+              - generic [ref=e527]:
+                - generic [ref=e528]: 当前原页 · Source slide 18
+                - generic [ref=e529]: 拟替换 0 个文本槽
+            - generic [ref=e530]:
+              - generic [ref=e531]:
+                - generic [ref=e532]: "18"
+                - heading "03 INVENTION — How Can Knowledge Open New Directions?" [level=3] [ref=e533]
+                - generic [ref=e534]: 03 Invention
+              - paragraph [ref=e535]: Accumulated knowledge can help invention by framing conflicts, transferring patterns, and exposing what must be learned.
+              - generic [ref=e536]:
+                - generic [ref=e537]: 下一步
+                - generic [ref=e538]: We begin with a system in which improving one part creates a problem elsewhere.
+              - group [ref=e539]:
+                - generic "查看原页版式适配理由" [ref=e540] [cursor=pointer]
+              - group [ref=e541]:
+                - generic "查看准确文本替换（0 处）" [ref=e542] [cursor=pointer]
+              - group [ref=e543]:
+                - generic "查看本页英文讲稿" [ref=e544] [cursor=pointer]
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - button "同意" [ref=e547] [cursor=pointer]
+                  - button "需修改" [ref=e548] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e549]
+          - article [ref=e550]:
+            - generic [ref=e551]:
+              - img "当前第 19 页" [ref=e552]
+              - generic [ref=e553]:
+                - generic [ref=e554]: 当前原页 · Source slide 19
+                - generic [ref=e555]: 拟替换 0 个文本槽
+            - generic [ref=e556]:
+              - generic [ref=e557]:
+                - generic [ref=e558]: "19"
+                - heading "Contradictions Give Invention a Starting Point" [level=3] [ref=e559]
+                - generic [ref=e560]: 03 Invention
+              - paragraph [ref=e561]: A conflict among connected parts turns invention from an inspiration story into a problem that can be studied.
+              - generic [ref=e562]:
+                - generic [ref=e563]: 下一步
+                - generic [ref=e564]: TRIZ then asks whether earlier solutions can suggest a new direction.
+              - group [ref=e565]:
+                - generic "查看原页版式适配理由" [ref=e566] [cursor=pointer]
+              - group [ref=e567]:
+                - generic "查看准确文本替换（0 处）" [ref=e568] [cursor=pointer]
+              - group [ref=e569]:
+                - generic "查看本页英文讲稿" [ref=e570] [cursor=pointer]
+              - generic [ref=e571]:
+                - generic [ref=e572]:
+                  - button "同意" [ref=e573] [cursor=pointer]
+                  - button "需修改" [ref=e574] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e575]
+          - article [ref=e576]:
+            - generic [ref=e577]:
+              - img "当前第 20 页" [ref=e578]
+              - generic [ref=e579]:
+                - generic [ref=e580]: 当前原页 · Source slide 20
+                - generic [ref=e581]: 拟替换 0 个文本槽
+            - generic [ref=e582]:
+              - generic [ref=e583]:
+                - generic [ref=e584]: "20"
+                - heading "TRIZ Transfers Solution Patterns Across Problems" [level=3] [ref=e585]
+                - generic [ref=e586]: 03 Invention
+              - paragraph [ref=e587]: Abstract a specific conflict, search prior inventions for a general pattern, then return with a concrete direction.
+              - generic [ref=e588]:
+                - generic [ref=e589]: 下一步
+                - generic [ref=e590]: The next question is when these mappings actually improve the options people generate.
+              - group [ref=e591]:
+                - generic "查看原页版式适配理由" [ref=e592] [cursor=pointer]
+              - group [ref=e593]:
+                - generic "查看准确文本替换（0 处）" [ref=e594] [cursor=pointer]
+              - group [ref=e595]:
+                - generic "查看本页英文讲稿" [ref=e596] [cursor=pointer]
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - button "同意" [ref=e599] [cursor=pointer]
+                  - button "需修改" [ref=e600] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e601]
+          - article [ref=e602]:
+            - generic [ref=e603]:
+              - img "当前第 21 页" [ref=e604]
+              - generic [ref=e605]:
+                - generic [ref=e606]: 当前原页 · Source slide 21
+                - generic [ref=e607]: 拟替换 0 个文本槽
+            - generic [ref=e608]:
+              - generic [ref=e609]:
+                - generic [ref=e610]: "21"
+                - heading "TRIZ Helps Under Specific Tasks and Conditions" [level=3] [ref=e611]
+                - generic [ref=e612]: 03 Invention
+              - paragraph [ref=e613]: The value of a TRIZ tool depends on the task, user, training, and domain.
+              - generic [ref=e614]:
+                - generic [ref=e615]: 下一步
+                - generic [ref=e616]: A further challenge appears when the design object itself is still taking shape.
+              - group [ref=e617]:
+                - generic "查看原页版式适配理由" [ref=e618] [cursor=pointer]
+              - group [ref=e619]:
+                - generic "查看准确文本替换（0 处）" [ref=e620] [cursor=pointer]
+              - group [ref=e621]:
+                - generic "查看本页英文讲稿" [ref=e622] [cursor=pointer]
+              - generic [ref=e623]:
+                - generic [ref=e624]:
+                  - button "同意" [ref=e625] [cursor=pointer]
+                  - button "需修改" [ref=e626] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e627]
+          - article [ref=e628]:
+            - generic [ref=e629]:
+              - img "当前第 22 页" [ref=e630]
+              - generic [ref=e631]:
+                - generic [ref=e632]: 当前原页 · Source slide 22
+                - generic [ref=e633]: 拟替换 0 个文本槽
+            - generic [ref=e634]:
+              - generic [ref=e635]:
+                - generic [ref=e636]: "22"
+                - heading "C–K Lets Ideas and Knowledge Expand Together" [level=3] [ref=e637]
+                - generic [ref=e638]: 03 Invention
+              - paragraph [ref=e639]: Ideas reveal what knowledge is missing; new knowledge reshapes the ideas.
+              - generic [ref=e640]:
+                - generic [ref=e641]: 下一步
+                - generic [ref=e642]: Once the space expands, the next challenge is deciding which branches deserve further work.
+              - group [ref=e643]:
+                - generic "查看原页版式适配理由" [ref=e644] [cursor=pointer]
+              - group [ref=e645]:
+                - generic "查看准确文本替换（0 处）" [ref=e646] [cursor=pointer]
+              - group [ref=e647]:
+                - generic "查看本页英文讲稿" [ref=e648] [cursor=pointer]
+              - generic [ref=e649]:
+                - generic [ref=e650]:
+                  - button "同意" [ref=e651] [cursor=pointer]
+                  - button "需修改" [ref=e652] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e653]
+          - article [ref=e654]:
+            - generic [ref=e655]:
+              - img "当前第 23 页" [ref=e656]
+              - generic [ref=e657]:
+                - generic [ref=e658]: 当前原页 · Source slide 23
+                - generic [ref=e659]: 拟替换 0 个文本槽
+            - generic [ref=e660]:
+              - generic [ref=e661]:
+                - generic [ref=e662]: "23"
+                - heading "C–K Makes Exploration Traceable" [level=3] [ref=e663]
+                - generic [ref=e664]: 03 Invention
+              - paragraph [ref=e665]: Maps record how ideas and knowledge grow; tests and decisions move selected branches toward implementation.
+              - generic [ref=e666]:
+                - generic [ref=e667]: 下一步
+                - generic [ref=e668]: "The next unit follows that final step: how selected possibilities become comparable and testable routes."
+              - group [ref=e669]:
+                - generic "查看原页版式适配理由" [ref=e670] [cursor=pointer]
+              - group [ref=e671]:
+                - generic "查看准确文本替换（0 处）" [ref=e672] [cursor=pointer]
+              - group [ref=e673]:
+                - generic "查看本页英文讲稿" [ref=e674] [cursor=pointer]
+              - generic [ref=e675]:
+                - generic [ref=e676]:
+                  - button "同意" [ref=e677] [cursor=pointer]
+                  - button "需修改" [ref=e678] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e679]
+      - generic [ref=e680]:
+        - generic [ref=e681]:
+          - generic [ref=e682]: "04"
+          - generic [ref=e683]:
+            - heading "路线：可能性如何变成可检验路线" [level=2] [ref=e684]
+            - paragraph [ref=e685]: 原页保持同序；逐页只改副本中的继承文本槽与讲者备注。
+        - generic [ref=e686]:
+          - article [ref=e687]:
+            - generic [ref=e688]:
+              - img "当前第 24 页" [ref=e689]
+              - generic [ref=e690]:
+                - generic [ref=e691]: 当前原页 · Source slide 24
+                - generic [ref=e692]: 拟替换 0 个文本槽
+            - generic [ref=e693]:
+              - generic [ref=e694]:
+                - generic [ref=e695]: "24"
+                - heading "04 ROUTE — How Do Possibilities Become Testable Routes?" [level=3] [ref=e696]
+                - generic [ref=e697]: 04 Route
+              - paragraph [ref=e698]: A possibility becomes comparable when its operations, alternatives, constraints, and evidence are explicit.
+              - generic [ref=e699]:
+                - generic [ref=e700]: 下一步
+                - generic [ref=e701]: We begin by deciding which complete routes are allowed into the comparison.
+              - group [ref=e702]:
+                - generic "查看原页版式适配理由" [ref=e703] [cursor=pointer]
+              - group [ref=e704]:
+                - generic "查看准确文本替换（0 处）" [ref=e705] [cursor=pointer]
+              - group [ref=e706]:
+                - generic "查看本页英文讲稿" [ref=e707] [cursor=pointer]
+              - generic [ref=e708]:
+                - generic [ref=e709]:
+                  - button "同意" [ref=e710] [cursor=pointer]
+                  - button "需修改" [ref=e711] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e712]
+          - article [ref=e713]:
+            - generic [ref=e714]:
+              - img "当前第 25 页" [ref=e715]
+              - generic [ref=e716]:
+                - generic [ref=e717]: 当前原页 · Source slide 25
+                - generic [ref=e718]: 拟替换 0 个文本槽
+            - generic [ref=e719]:
+              - generic [ref=e720]:
+                - generic [ref=e721]: "25"
+                - heading "Process Synthesis Defines the Routes Worth Comparing" [level=3] [ref=e722]
+                - generic [ref=e723]: 04 Route
+              - paragraph [ref=e724]: Route search begins by declaring the equipment, connections, and operating choices that may enter the comparison.
+              - generic [ref=e725]:
+                - generic [ref=e726]: 下一步
+                - generic [ref=e727]: Once the candidate set is declared, what makes a network structurally valid?
+              - group [ref=e728]:
+                - generic "查看原页版式适配理由" [ref=e729] [cursor=pointer]
+              - group [ref=e730]:
+                - generic "查看准确文本替换（0 处）" [ref=e731] [cursor=pointer]
+              - group [ref=e732]:
+                - generic "查看本页英文讲稿" [ref=e733] [cursor=pointer]
+              - generic [ref=e734]:
+                - generic [ref=e735]:
+                  - button "同意" [ref=e736] [cursor=pointer]
+                  - button "需修改" [ref=e737] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e738]
+          - article [ref=e739]:
+            - generic [ref=e740]:
+              - img "当前第 26 页" [ref=e741]
+              - generic [ref=e742]:
+                - generic [ref=e743]: 当前原页 · Source slide 26
+                - generic [ref=e744]: 拟替换 0 个文本槽
+            - generic [ref=e745]:
+              - generic [ref=e746]:
+                - generic [ref=e747]: "26"
+                - heading "P-graph Makes Joint Needs and Alternatives Explicit" [level=3] [ref=e748]
+                - generic [ref=e749]: 04 Route
+              - paragraph [ref=e750]: An operation bundles all required inputs, while a material may have several alternative producers.
+              - generic [ref=e751]:
+                - generic [ref=e752]: 下一步
+                - generic [ref=e753]: Rules admit candidates; algorithms must then generate them systematically.
+              - group [ref=e754]:
+                - generic "查看原页版式适配理由" [ref=e755] [cursor=pointer]
+              - group [ref=e756]:
+                - generic "查看准确文本替换（0 处）" [ref=e757] [cursor=pointer]
+              - group [ref=e758]:
+                - generic "查看本页英文讲稿" [ref=e759] [cursor=pointer]
+              - generic [ref=e760]:
+                - generic [ref=e761]:
+                  - button "同意" [ref=e762] [cursor=pointer]
+                  - button "需修改" [ref=e763] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e764]
+          - article [ref=e765]:
+            - generic [ref=e766]:
+              - img "当前第 27 页" [ref=e767]
+              - generic [ref=e768]:
+                - generic [ref=e769]: 当前原页 · Source slide 27
+                - generic [ref=e770]: 拟替换 0 个文本槽
+            - generic [ref=e771]:
+              - generic [ref=e772]:
+                - generic [ref=e773]: "27"
+                - heading "Generate the Space, List the Routes, Then Rank Them" [level=3] [ref=e774]
+                - generic [ref=e775]: 04 Route
+              - paragraph [ref=e776]: MSG builds the candidate space, SSG lists each valid network, and ABB searches for strong options under a stated model.
+              - generic [ref=e777]:
+                - generic [ref=e778]: 下一步
+                - generic [ref=e779]: What changes when the rule library is huge and every rule depends on context?
+              - group [ref=e780]:
+                - generic "查看原页版式适配理由" [ref=e781] [cursor=pointer]
+              - group [ref=e782]:
+                - generic "查看准确文本替换（0 处）" [ref=e783] [cursor=pointer]
+              - group [ref=e784]:
+                - generic "查看本页英文讲稿" [ref=e785] [cursor=pointer]
+              - generic [ref=e786]:
+                - generic [ref=e787]:
+                  - button "同意" [ref=e788] [cursor=pointer]
+                  - button "需修改" [ref=e789] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e790]
+          - article [ref=e791]:
+            - generic [ref=e792]:
+              - img "当前第 28 页" [ref=e793]
+              - generic [ref=e794]:
+                - generic [ref=e795]: 当前原页 · Source slide 28
+                - generic [ref=e796]: 拟替换 0 个文本槽
+            - generic [ref=e797]:
+              - generic [ref=e798]:
+                - generic [ref=e799]: "28"
+                - heading "Retrosynthesis Turns Reaction Knowledge into a Route Tree" [level=3] [ref=e800]
+                - generic [ref=e801]: 04 Route
+              - paragraph [ref=e802]: Working backward from a target turns conditional reaction knowledge into several routes that can be explored.
+              - generic [ref=e803]:
+                - generic [ref=e804]: 下一步
+                - generic [ref=e805]: A generated route tree still needs evidence that moves it toward real use.
+              - group [ref=e806]:
+                - generic "查看原页版式适配理由" [ref=e807] [cursor=pointer]
+              - group [ref=e808]:
+                - generic "查看准确文本替换（0 处）" [ref=e809] [cursor=pointer]
+              - group [ref=e810]:
+                - generic "查看本页英文讲稿" [ref=e811] [cursor=pointer]
+              - generic [ref=e812]:
+                - generic [ref=e813]:
+                  - button "同意" [ref=e814] [cursor=pointer]
+                  - button "需修改" [ref=e815] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e816]
+          - article [ref=e817]:
+            - generic [ref=e818]:
+              - img "当前第 29 页" [ref=e819]
+              - generic [ref=e820]:
+                - generic [ref=e821]: 当前原页 · Source slide 29
+                - generic [ref=e822]: 拟替换 0 个文本槽
+            - generic [ref=e823]:
+              - generic [ref=e824]:
+                - generic [ref=e825]: "29"
+                - heading "A Route Earns Confidence in Four Steps" [level=3] [ref=e826]
+                - generic [ref=e827]: 04 Route
+              - paragraph [ref=e828]: Confidence grows from a computed route to expert review, a complete procedure, and an experimental result.
+              - generic [ref=e829]:
+                - generic [ref=e830]: 下一步
+                - generic [ref=e831]: This evidence ladder completes the fourth foundation; we can now combine the whole review.
+              - group [ref=e832]:
+                - generic "查看原页版式适配理由" [ref=e833] [cursor=pointer]
+              - group [ref=e834]:
+                - generic "查看准确文本替换（0 处）" [ref=e835] [cursor=pointer]
+              - group [ref=e836]:
+                - generic "查看本页英文讲稿" [ref=e837] [cursor=pointer]
+              - generic [ref=e838]:
+                - generic [ref=e839]:
+                  - button "同意" [ref=e840] [cursor=pointer]
+                  - button "需修改" [ref=e841] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e842]
+      - generic [ref=e843]:
+        - generic [ref=e844]:
+          - generic [ref=e845]: •
+          - generic [ref=e846]:
+            - heading "综合：技术基因组如何接受检验" [level=2] [ref=e847]
+            - paragraph [ref=e848]: 原页保持同序；逐页只改副本中的继承文本槽与讲者备注。
+        - generic [ref=e849]:
+          - article [ref=e850]:
+            - generic [ref=e851]:
+              - img "当前第 30 页" [ref=e852]
+              - generic [ref=e853]:
+                - generic [ref=e854]: 当前原页 · Source slide 30
+                - generic [ref=e855]: 拟替换 0 个文本槽
+            - generic [ref=e856]:
+              - generic [ref=e857]:
+                - generic [ref=e858]: "30"
+                - heading "Four Research Traditions Provide Four Foundations" [level=3] [ref=e859]
+                - generic [ref=e860]: Synthesis
+              - paragraph [ref=e861]: Mature research explains direction, makes internal structure observable, opens possibilities, and turns some possibilities into testable routes.
+              - generic [ref=e862]:
+                - generic [ref=e863]: 下一步
+                - generic [ref=e864]: Together, these results leave one long-term question about technical structure itself.
+              - group [ref=e865]:
+                - generic "查看原页版式适配理由" [ref=e866] [cursor=pointer]
+              - group [ref=e867]:
+                - generic "查看准确文本替换（0 处）" [ref=e868] [cursor=pointer]
+              - group [ref=e869]:
+                - generic "查看本页英文讲稿" [ref=e870] [cursor=pointer]
+              - generic [ref=e871]:
+                - generic [ref=e872]:
+                  - button "同意" [ref=e873] [cursor=pointer]
+                  - button "需修改" [ref=e874] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e875]
+          - article [ref=e876]:
+            - generic [ref=e877]:
+              - img "当前第 31 页" [ref=e878]
+              - generic [ref=e879]:
+                - generic [ref=e880]: 当前原页 · Source slide 31
+                - generic [ref=e881]: 拟替换 0 个文本槽
+            - generic [ref=e882]:
+              - generic [ref=e883]:
+                - generic [ref=e884]: "31"
+                - heading "Technical Genomics Tracks Change Across Generations" [level=3] [ref=e885]
+                - generic [ref=e886]: Synthesis
+              - paragraph [ref=e887]: Technical Genomics studies recurring technical content, its organization, its history, and the value of knowing it.
+              - generic [ref=e888]:
+                - generic [ref=e889]: 下一步
+                - generic [ref=e890]: "The programme begins with two gates: can we identify the content, and can we reconstruct its organization?"
+              - group [ref=e891]:
+                - generic "查看原页版式适配理由" [ref=e892] [cursor=pointer]
+              - group [ref=e893]:
+                - generic "查看准确文本替换（0 处）" [ref=e894] [cursor=pointer]
+              - group [ref=e895]:
+                - generic "查看本页英文讲稿" [ref=e896] [cursor=pointer]
+              - generic [ref=e897]:
+                - generic [ref=e898]:
+                  - button "同意" [ref=e899] [cursor=pointer]
+                  - button "需修改" [ref=e900] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e901]
+          - article [ref=e902]:
+            - generic [ref=e903]:
+              - img "当前第 32 页" [ref=e904]
+              - generic [ref=e905]:
+                - generic [ref=e906]: 当前原页 · Source slide 32
+                - generic [ref=e907]: 拟替换 0 个文本槽
+            - generic [ref=e908]:
+              - generic [ref=e909]:
+                - generic [ref=e910]: "32"
+                - 'heading "First Test: Can We Identify and Organize Technical Structure?" [level=3] [ref=e911]'
+                - generic [ref=e912]: Synthesis
+              - paragraph [ref=e913]: Stable identity and reproducible relations are the entry conditions for studying technical structure over time.
+              - generic [ref=e914]:
+                - generic [ref=e915]: 下一步
+                - generic [ref=e916]: Once the structure is reproducible, the next tests ask what it can explain and improve.
+              - group [ref=e917]:
+                - generic "查看原页版式适配理由" [ref=e918] [cursor=pointer]
+              - group [ref=e919]:
+                - generic "查看准确文本替换（0 处）" [ref=e920] [cursor=pointer]
+              - group [ref=e921]:
+                - generic "查看本页英文讲稿" [ref=e922] [cursor=pointer]
+              - generic [ref=e923]:
+                - generic [ref=e924]:
+                  - button "同意" [ref=e925] [cursor=pointer]
+                  - button "需修改" [ref=e926] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e927]
+          - article [ref=e928]:
+            - generic [ref=e929]:
+              - img "当前第 33 页" [ref=e930]
+              - generic [ref=e931]:
+                - generic [ref=e932]: 当前原页 · Source slide 33
+                - generic [ref=e933]: 拟替换 0 个文本槽
+            - generic [ref=e934]:
+              - generic [ref=e935]:
+                - generic [ref=e936]: "33"
+                - 'heading "Second Test: Does Structural Knowledge Improve Explanation and Design?" [level=3] [ref=e937]'
+                - generic [ref=e938]: Synthesis
+              - paragraph [ref=e939]: Structural knowledge earns value when it improves historical explanation, next-step prediction, design, or cross-level understanding.
+              - generic [ref=e940]:
+                - generic [ref=e941]: 下一步
+                - generic [ref=e942]: The results must then change the research programme in a clear way.
+              - group [ref=e943]:
+                - generic "查看原页版式适配理由" [ref=e944] [cursor=pointer]
+              - group [ref=e945]:
+                - generic "查看准确文本替换（0 处）" [ref=e946] [cursor=pointer]
+              - group [ref=e947]:
+                - generic "查看本页英文讲稿" [ref=e948] [cursor=pointer]
+              - generic [ref=e949]:
+                - generic [ref=e950]:
+                  - button "同意" [ref=e951] [cursor=pointer]
+                  - button "需修改" [ref=e952] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e953]
+          - article [ref=e954]:
+            - generic [ref=e955]:
+              - img "当前第 34 页" [ref=e956]
+              - generic [ref=e957]:
+                - generic [ref=e958]: 当前原页 · Source slide 34
+                - generic [ref=e959]: 拟替换 0 个文本槽
+            - generic [ref=e960]:
+              - generic [ref=e961]:
+                - generic [ref=e962]: "34"
+                - heading "Evidence Decides What Technical Genomics Becomes" [level=3] [ref=e963]
+                - generic [ref=e964]: Synthesis
+              - paragraph [ref=e965]: Retain established explanations, narrow claims to their supported scope, and drop strong claims that keep failing.
+              - generic [ref=e966]:
+                - generic [ref=e967]: 下一步
+                - generic [ref=e968]: The goal is structural knowledge that explains how technologies evolved and helps us explore what can come next.
+              - group [ref=e969]:
+                - generic "查看原页版式适配理由" [ref=e970] [cursor=pointer]
+              - group [ref=e971]:
+                - generic "查看准确文本替换（0 处）" [ref=e972] [cursor=pointer]
+              - group [ref=e973]:
+                - generic "查看本页英文讲稿" [ref=e974] [cursor=pointer]
+              - generic [ref=e975]:
+                - generic [ref=e976]:
+                  - button "同意" [ref=e977] [cursor=pointer]
+                  - button "需修改" [ref=e978] [cursor=pointer]
+                - textbox "可选：记录这一页需要怎么改" [ref=e979]
