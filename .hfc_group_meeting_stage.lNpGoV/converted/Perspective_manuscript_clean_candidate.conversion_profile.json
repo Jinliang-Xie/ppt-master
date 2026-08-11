@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "/Users/xjl/ppt-master/projects/HFC-perspective&review-20260805/perspective/manuscript/Perspective_manuscript_clean_candidate.docx",
+    "name": "Perspective_manuscript_clean_candidate.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 54597
+  },
+  "outputs": {
+    "markdown": "Perspective_manuscript_clean_candidate.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 266,
+    "char_count": 42790,
+    "heading_count": 11,
+    "table_count": 0,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}

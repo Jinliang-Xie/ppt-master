@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "/Users/xjl/ppt-master/projects/HFC-perspective&review-20260805/review/manuscript/HFC_lifetime_service_review_clean_candidate.docx",
+    "name": "HFC_lifetime_service_review_clean_candidate.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 65659
+  },
+  "outputs": {
+    "markdown": "HFC_lifetime_service_review_clean_candidate.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 362,
+    "char_count": 67070,
+    "heading_count": 17,
+    "table_count": 0,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}
